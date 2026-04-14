@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  background: #020617;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+section {
+  padding: 60px;
+  text-align: center;
+}
+
+.skill-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-box div {
+  padding: 15px 25px;
+  background: #1e293b;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.skill-box div:hover {
+  background: #38bdf8;
+  color: black;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #38bdf8;
+  box-shadow: 0 0 25px #38bdf8;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  background: #38bdf8;
+  border: none;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+#formMsg {
+  margin-top: 10px;
+  color: lightgreen;
+}
+
+.cert-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cert-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 240px;
+  transition: 0.3s;
+}
+
+.cert-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.cert-card:hover {
+  transform: translateY(-10px);
+  background: #38bdf8;
+  color: black;
+}
+
+.cert-card:hover a {
+  color: black;
+}
+
+.card {
+  padding: 40px;
+  background: #1e293b;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: #38bdf8;
+  color: black;
+}
